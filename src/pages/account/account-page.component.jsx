@@ -43,7 +43,7 @@ const AccountPage = () => {
                             myScores.map(userScore => (
                                 (
                                     <Table.Row key={userScore.id}>
-                                        <Table.Cell className='selectable'><a href={`quiz/${userScore.quizType}/${userScore.quiz}`}>{userScore.quiz}</a></Table.Cell>
+                                        <Table.Cell className='selectable'><Link to={`quiz/${userScore.quizType}/${userScore.quiz}`}>{userScore.quiz}</Link></Table.Cell>
                                         <Table.Cell >{userScore.quizType}</Table.Cell>
                                         <Table.Cell>{userScore.price}</Table.Cell>
                                         <Table.Cell color='green'>{userScore.score}</Table.Cell>
