@@ -11,8 +11,9 @@ import Header from './components/header/header.component'
 import Login from './pages/login'
 import Register from './pages/register'
 
+import QuizPage from './pages/quiz-page/quiz-page.component'
+
 const HomePage = lazy(() => import('./pages/homepage/homepage.component'))
-const QuizPage = lazy(() => import('./pages/quiz-page/quiz-page.component'))
 const AccountPage = lazy(() => import('./pages/account/account-page.component'))
 
 const App = () => {
