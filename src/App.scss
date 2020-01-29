@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin-left: 75px;
+  margin-right: 75px;
+  font-family: 'Cabin', sans-serif;
+
+  @media (max-width: 700px) { 
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+// * { 
+//   outline: 1px solid red;
+//   outline-offset: -1px;
+// }

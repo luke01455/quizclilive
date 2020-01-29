@@ -1,0 +1,42 @@
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    .bground {
+        width: 80vw;
+        height: 555px;
+        background-image: url("../../assets/carouselslide2.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
+
+.testingitem {
+    height: 500px;
+    margin-bottom: -50px;
+}
+
+.carousel-text-container {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+     top: -200px;
+     left: 245px;
+
+     @media (min-width: 1550px) { 
+        top: -260px;
+        left: 235px;
+      }
+    
+      @media (min-width: 1600px) { 
+        top: -260px;
+        left: 275px;
+      }
+
+    
+}
