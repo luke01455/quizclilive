@@ -8,8 +8,8 @@ import { Table } from 'semantic-ui-react'
 
 import Spinner from '../../components/spinner/spinner.component'
 
-const QuizModalMusic = lazy(() => import('../../components/quiz-modal-music/quiz-modal-music.component'))
-const QuizModalSport = lazy(() => import('../../components/quiz-modal-sport/quiz-modal-sport.component'))
+import QuizModalSport from '../../components/quiz-modal-sport/quiz-modal-sport.component'
+import QuizModalMusic from '../../components/quiz-modal-music/quiz-modal-music.component'
 
 
 
